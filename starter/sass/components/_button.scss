@@ -9,6 +9,7 @@
         transition: all .2s ;
         position: relative;
     }
+    
     &:hover {
         transform: translateY(-.3rem);
         box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
@@ -22,6 +23,7 @@
         transform: translateY(-.1rem);
         box-shadow: 0 .5rem 1rem rgba($color-black, 0.2);
     }
+
     &--white {
         background-color: $color-white;
         color: $color-grey-dark;
@@ -30,6 +32,14 @@
         }
     }
     
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+        &::after {
+            background-color: $color-primary;
+        }
+    }
+
     &::after {
         content: "";
         display: inline-block;
