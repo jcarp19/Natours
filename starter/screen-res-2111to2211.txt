@@ -1,0 +1,24 @@
+Huge Desktop Break @ 1800+
+1920
+
+Desktop Break @ 1200 - 1799
+1600
+1536
+1440
+1366
+1280
+
+Tab Horizontal Break @ 900 - 1199
+1024
+
+Tab Vertical Break @ 600 - 899
+768
+
+Phone Break @ <= 599
+428
+414
+412
+390
+375
+360
+
